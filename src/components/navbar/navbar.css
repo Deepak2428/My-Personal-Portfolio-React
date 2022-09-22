@@ -28,6 +28,11 @@ nav a.active
 
 @media  screen and (max-width:620px) {
 
+    nav
+    {
+        width: 70%;
+    }
+
     nav a
     {
         padding: 8px 10px 8px 10px;

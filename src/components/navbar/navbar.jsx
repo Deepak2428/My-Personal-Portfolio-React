@@ -36,7 +36,7 @@ function Navbar()
     <a href="#about" onClick={handleAbout} className={ activeNav==="about"?"active":""} ><AiOutlineUser /></a>
     <a href="#skills" onClick={handleSkills} className={ activeNav==="skills"?"active":""}><BsBook /></a>
     <a href="#projects" onClick={handleProjects} className={ activeNav==="projects"?"active":""}><RiServiceLine /></a>
-    <a href="#footer" onClick={handleContacts} className={ activeNav==="contact"?"active":""}><AiOutlineContacts /></a>
+    <a href="#=contact" onClick={handleContacts} className={ activeNav==="contact"?"active":""}><AiOutlineContacts /></a>
     </nav>
     )
 }
