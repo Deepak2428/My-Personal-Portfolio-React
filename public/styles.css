@@ -1,0 +1,105 @@
+body
+{
+    margin: 0;
+    background-color: #eee;
+    font-family: "Montserrat", sans-serif;
+}
+.heading
+{
+    background-color: #F5BA13;
+   
+}
+.heading h1
+{
+    font-size: 30px;
+    color: white;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 20px;;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+}
+.notes
+{
+    display: inline-block;
+    margin: 20px;
+    margin-top: 3%;
+    padding: 20px;
+    width: 20%;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid white;
+    box-shadow: 0px 0px 6px 0px rgb(190, 189, 189);
+    border-radius: 5%;
+    position: relative;
+}
+.notes  h1
+{
+    font-size: 20px;
+    margin-top: 1%;
+    
+}
+.notes  p
+{
+    font-size: 18px;
+    margin-top: 1%;
+    padding:3%;
+   
+}
+.notes button
+{
+    border:none;
+    background-color: white;
+    color:#F5BA13;
+    position: absolute;
+    bottom:1%;
+    right:2%;
+}
+.footer p {
+    color: #ccc;
+  }
+.footer
+{
+    position: fixed;
+    bottom: 10px;
+    left:45%;
+}
+.inputForm
+{
+    position: relative;
+}
+form
+{
+    margin: auto;
+    margin-top: 3%;
+    box-shadow: 0px 2px 11px 0px rgba(138,138,137,1);
+    width:30%
+   
+}
+textarea
+{
+    resize: none;
+}
+.form input,.form textarea
+{
+    display:block;
+    margin:auto;
+    box-sizing: border-box;
+    border: white 1px solid;
+    border-radius: 3%;
+    border-collapse: collapse;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+.form button
+{
+    border: none;
+    position: absolute;
+    bottom:2%;
+    right:36%;
+    background-color: white;
+    color:#F5BA13
+}
