@@ -1,7 +1,7 @@
 import React from "react";
 import Buttons from "./buttons.jsx"
 import "./header.css"
-import img from "../../assests/ME.png"
+import img from "../../assests/Me5 (2).png"
 import Social from "./social.jsx";
 function Header()
 {
