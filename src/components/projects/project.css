@@ -1,0 +1,62 @@
+
+.projects_list div
+{
+    display: inline-block;
+    width: 25%;
+    margin: 4%;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-color: var(--color-bg-variant);
+    background-color: var(--color-bg-variant);
+    border-radius: 4%;
+    text-align: center;
+    transition: var(--transition);
+}
+.projects_list div:hover
+{
+    background-color: var(--color-bg);
+    border-color: var(--color-primary-variant);
+}
+.projects_list div img
+{
+    width: 95%;
+    height: 200px;
+    border-radius: 8%;
+    padding: 8px;
+}
+.projects_list div a
+{
+    margin:1rem;
+    margin-top: 2rem;
+}
+.projects_list div .para
+{
+    margin-top: 1rem;
+}
+.projects_list div h2
+{
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px)
+{
+    .projects_list
+    {
+        text-align: center;
+    }
+    .projects_list div
+    {
+        width: 40%;
+    }
+}
+@media screen and (max-width:600px) {
+
+    .projects_list
+    {
+        text-align: center;
+    }
+    .projects_list div
+    {
+        width: 70%;
+    }
+}

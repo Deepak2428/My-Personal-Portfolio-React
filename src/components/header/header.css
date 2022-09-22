@@ -1,0 +1,93 @@
+.header_container
+{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+/***** Buttons******/
+.button .btn
+{
+    margin:1.2rem 0.6rem;
+}
+
+/************img**********/
+.me
+{
+    margin-top: 3rem;
+    padding: 2rem 0.1rem 0.2rem 0.1rem;
+    width: 22%;
+    background-color: var(--color-primary);
+    background-image: linear-gradient(to bottom, #4db5ff, #4e8bca, #456397, #343f65, #1f1f38);
+    border-radius: 50% 50% 0% 0%;
+}
+
+/************social***********/
+.social
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom:10%;
+    left:20%;
+}
+.line
+{
+    width: 0.2rem;
+    margin-left: 41%;
+    background-color: var(--color-primary);
+    height: 2rem;
+}
+.social a
+{
+    font-size: 25px;
+}
+
+div.scroll__down
+{
+    color:var(--color-white);
+    position: absolute;
+    bottom:10%;
+    right:20%;
+    transform:rotate(90deg);
+}
+
+/********** Media Query *************/
+
+
+@media screen and (max-width:1024px) {
+
+    .me
+    {
+        width: 16rem;
+    }
+    .social
+    {
+        bottom:5%;
+        left:10%;
+    }
+    .scroll__down
+    {
+        bottom:5%;
+        right: 10%;
+    }
+    
+}
+@media screen and (max-width:620px) {
+    .social
+    {
+        display: none;
+    }
+    .scroll__down
+    {
+        display: none;
+    }
+    .me
+    {
+        width:85%;
+    }
+    .meimg
+    {
+        margin-top: 4rem;
+    }
+    }
+    
