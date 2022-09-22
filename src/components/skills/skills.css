@@ -42,6 +42,7 @@ article
     color:var(--color-primary)
 }
 
+
 @media screen and (max-width:1024px)
 {
     .skills
@@ -53,4 +54,15 @@ article
     {
         text-align: left;
     }
+}
+
+@media screen and (max-width:620px) {
+    
+    .skills_frontend .coloumns,.skills_backend .coloumns
+    {
+        display:grid;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+    
 }

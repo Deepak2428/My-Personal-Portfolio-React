@@ -37,19 +37,19 @@ function Contact()
                     <div className="email">
                         <AiOutlineMail className="contact_icon"/>
                         <h4>Email</h4>
-                        <small className="text-light">Shubham.godiyal2001@gmail.com</small>
+                        <p className="text-light">Shubham.godiyal2001@gmail.com</p>
                         <a href="mailto:shubham.godiyal2001@gmail.com" target="_blank">Send a Message</a>
                     </div>
-                    <div className="Insta">
+                    <div className="insta">
                         <BsInstagram  className="contact_icon"/>
                         <h4>Instagram</h4>
-                        <small className="text-light">shubham_24_28</small>
+                        <p className="text-light">shubham_24_28</p>
                         <a href="https://www.instagram.com/direct/inbox/" target="_blank">Send a Message</a>
                     </div>
-                    <div className="whatsApp">
+                    <div className="whatsapp">
                         <BsWhatsapp className="contact_icon"/>
                         <h4>Whats App</h4>
-                        <small className="text-light">+91 8859770347</small>
+                        <p className="text-light">+91 8859770347</p>
                         <a href="https://api.whatsapp.com/send?phone=918859770347" target="_blank">Send a Message</a>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ function Contact()
                         <textarea name="message" placeholder="Enter your message" rows="4" required/>
                         <button className="btn primary" onClick={handleChange}type="submit">Submit</button>
                     </form>
-                    <small>{status}</small>
+                    <p>{status}</p>
                 </div>
                 
             </div>

@@ -19,7 +19,7 @@ function Project()
                     <p className="para">A video chatting app developed by using WebRtc.Signaling Process done with the
                     help of AgoraRTM.</p>
                     <p>The user can join a channel and can have a one to one chat with other User.</p>
-                    <a class="btn " target="_blank" href="https://github.com/Deepak2428/Bonjour-Chat-app">Git Hub</a>
+                    <a className="btn " target="_blank" href="https://github.com/Deepak2428/Bonjour-Chat-app">Git Hub</a>
                 </div>
 
                 <div>

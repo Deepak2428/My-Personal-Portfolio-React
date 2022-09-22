@@ -2,27 +2,25 @@
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    place-items: center;
     gap:0%;
     text-align: right;
 }
 .contact_options div
 {
-    
+    display: block;
+    margin: auto;
     margin-top: 1%;
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr;
 }
 
 .contact_options div div
 {
     border: 1px solid transparent;
     padding: 15px;
-    margin:2%;
-    margin-left: 8rem;
     background-color: var(--color-bg-variant);
     border-radius: 4%;
-    width: 50%;
+    width: 100%;
     font-size: 15px;
 }
 input,textarea
@@ -60,11 +58,11 @@ textarea
     display: block;
     margin-left: 6%;
 }
-.contact_options div div h4,.contact_options div div small 
+.contact_options div div h4,.contact_options div div p,.contact_options div div a  
 {
+    display: block;
     margin: 2%;
 }
-
 
 @media screen and (max-width:1000px)
 {
@@ -87,5 +85,10 @@ textarea
     {
         font-size: large;
         width: 100%;
+    }
+    .email,.insta,.whatsapp
+    {
+        width: 80%;
+        margin: auto;
     }
 }

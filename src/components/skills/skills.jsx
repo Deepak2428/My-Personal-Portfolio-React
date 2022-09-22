@@ -15,35 +15,35 @@ function Skills()
                             <BsFillPatchCheckFill className="icon"/>
                             <div className="article_div">
                                 <h4>HTML</h4>
-                                <small className="text-light">Intermediate</small>
+                                <p className="text-light">Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <BsFillPatchCheckFill className="icon"/>
                             <div className="article_div">
                                 <h4>CSS</h4>
-                                <small className="text-light">Intermediate</small>
+                                <p className="text-light">Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <BsFillPatchCheckFill className="icon"/>
                             <div className="article_div">
                                 <h4>JavaScript</h4>
-                                <small className="text-light">Intermediate</small>
+                                <p className="text-light">Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <BsFillPatchCheckFill className="icon"/>
                             <div className="article_div">
                                 <h4>React</h4>
-                                <small className="text-light">Beginner</small>
+                                <p className="text-light">Beginner</p>
                             </div>
                         </article>
                         <article>
                             <BsFillPatchCheckFill className="icon"/>
                             <div className="article_div">
                                 <h4>BootStrap</h4>
-                                <small className="text-light">Intermediate</small>
+                                <p className="text-light">Intermediate</p>
                             </div>
                         </article>
                     </div>
@@ -55,28 +55,28 @@ function Skills()
                             <BsFillPatchCheckFill className="icon"/>
                             <div className="article_div">
                                 <h4>NodeJS</h4>
-                                <small className="text-light">Intermediate</small>
+                                <p className="text-light">Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <BsFillPatchCheckFill className="icon"/>
                             <div className="article_div">
                                 <h4>PHP</h4>
-                                <small className="text-light">Intermediate</small>
+                                <p className="text-light">Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <BsFillPatchCheckFill className="icon"/>
                             <div className="article_div">
                                 <h4>MySql</h4>
-                                <small className="text-light">Intermediate</small>
+                                <p className="text-light">Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <BsFillPatchCheckFill className="icon"/>
                             <div className="article_div">
                                 <h4>Java</h4>
-                                <small className="text-light">Intermediate</small>
+                                <p className="text-light">Intermediate</p>
                             </div>
                             
                         </article>
